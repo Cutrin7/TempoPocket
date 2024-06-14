@@ -56,6 +56,10 @@ p{
     max-width: 500px;
 }
 
+#text{
+    margin: 0 auto;
+}
+
 img{
     width: 560px;
     position: relative;
@@ -109,10 +113,24 @@ input{
 section{
     text-align: center;
     padding: 50px;
-    padding-left: 400px;
-    padding-right: 400px;
+    margin: 0 auto;
     font-size: 20px;
 }
 
+@media screen and (max-width: 760px){
+    main{
+        flex-direction: column;
+    }
 
+    h2{
+        font-size: 45px;
+    }
+
+    img{
+        display: none;
+    }
+
+    
+
+}
 
